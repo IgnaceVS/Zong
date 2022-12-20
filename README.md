@@ -4,7 +4,7 @@ Automated clustering of zebra finch song syllables from multiple tutors.
 
 Installation
 ------------
-1. Download Zong, unzip and copy files into MATLAB toolbox directory.
+1. Download Zong, unzip and copy files into MATLAB (version R2020a or later) directory.
 2. Ensure Zong files are included on MATLAB path.
 
 Usage
@@ -27,3 +27,7 @@ Usage
 5. Navigate to the Similarity table. If performing a motif level analysis, or all your birds are well segmented using the same parameters, hit ‘Similarity’. If you are using the parameter table to store different per-bird segmentation parameters, check ‘Use Table’ and the hit ‘Similarity’.
     1. You will then be prompted to give a name to the output excel file containing all the statistics.
     2. We import into JMP Pro to perform analyses, but you can use the stats package of your choice.
+
+Disclaimer
+----------
+This application uses code implementing the [YIN frequency estimator method](https://doi.org/10.1121/1.1458024).
